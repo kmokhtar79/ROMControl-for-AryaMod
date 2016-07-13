@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="Wallpaper Scrolling"
+        android:key="aryamod_scroll"
+        android:defaultValue="false"
+        android:summaryOn="Enabled"
+        android:summaryOff="Disabled" />
+    <CheckBoxPreference
+        android:title="Dark Font"
+        android:key="need_dark_font"
+        android:defaultValue="false"
+        android:summaryOn="Enabled"
+        android:summaryOff="Disabled" />
+
+    <com.aryamod.romcontrol.prefs.MyListPreference
+        android:entries="@array/tw_effect_entries"
+        android:title="Touchwiz Page Effect"
+        android:key="tw_page_effect"
+        android:defaultValue="1"
+        android:entryValues="@array/tw_effect_values" />
+
+    <PreferenceScreen
+        android:title="Swipe Rest"
+        android:key="com.wubydax.geartwswipe.ResetDialogActivity"
+        android:summary="reset left-swipe app" />
+
+    <PreferenceScreen
+        android:title="Restart launcher after settings swipe app"
+        android:key="script#launcher"
+        android:summary="required only once" />
+
+    <PreferenceCategory android:title="Gestures anywhere on Homescreen ">
+        <com.aryamod.romcontrol.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_doubletap_entries"
+            android:title="Double tap" android:key="am_doubletap"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_doubletap_values" />
+        <com.aryamod.romcontrol.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_swipeup_entries"
+            android:title="Swipe up"
+            android:key="am_swipe_up"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_swipeup_values" />
+        <com.aryamod.romcontrol.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_swipedown_entries"
+            android:title="Swipe down"
+            android:key="am_swipe_down"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_swipedown_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

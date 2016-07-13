@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:icon="@drawable/ic_setting_toolbox"
+        android:summary="Edit apps in Toolbox"
+        android:title="Toolbox Settings">
+        <intent
+            android:targetClass="com.aryamod.toolboxsettings.ToolboxSettings"
+            android:targetPackage="com.aryamod.toolboxsettings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_setting_upsm"
+        android:key="mobi.xperiacle.upsm.manager.MainActivity"
+        android:summary="Enable apps on UPSM"
+        android:title="UPSM Manager" />
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_settings_omniswitch"
+        android:key="org.omnirom.omniswitch.SettingsActivity"
+        android:summary="advanced multitasking"
+        android:title="OmniSwitch" />
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_launcher_supersu"
+        android:key="eu.chainfire.supersu.MainActivity"
+        android:summary="Root Access Control"
+        android:title="SuperSu" />
+
+    <PreferenceScreen
+        android:icon="@drawable/ota"
+        android:summary="Check AryaMod Addons and Update"
+        android:title="OTA Updates">
+        <intent
+            android:targetClass="com.kamy.aryamod.updates.activities.MainActivity"
+            android:targetPackage="com.kamy.aryamod.updates" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/fastergps"
+        android:summary="fix gps based on location"
+        android:title="Faster GPS">
+        <intent
+            android:targetClass="org.fastergps.ui.BaseActivity"
+            android:targetPackage="org.fastergps" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/iconthemer"
+        android:summary="tw launcher icon themer"
+        android:title="Galaxy Icon Themer">
+        <intent
+            android:targetClass="mobi.xperiacle.touchwiz.themer.IconThemer"
+            android:targetPackage="mobi.xperiacle.touchwiz.themer" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/adaway"
+        android:summary="block ads and malware"
+        android:title="AdAway">
+        <intent
+            android:targetClass="org.adaway.ui.BaseActivity"
+            android:targetPackage="org.adaway" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

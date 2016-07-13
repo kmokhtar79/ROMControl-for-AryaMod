@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout="@layout/my_logo" >
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="External Links" />
+
+    <PreferenceScreen
+        android:icon="@drawable/kmokhtar79"
+        android:title="Kamy"
+        android:summary="The ROM Dev" >
+        <intent
+            android:icon="@drawable/kmokhtar79"
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/member.php?u=4819130" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/xda"
+        android:title="Development Thread"
+        android:summary="Click to visit the ROM thread">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/galaxy-note-3/development/rom-aryamod-v1-3-tw-lollipop-5-1-1-t3326976" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/gplus"
+        android:title="Google Plus Community"
+        android:summary="Click to visit and join">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://tinyurl.com/hsr3qnp" />
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="Special Thanks to..." />
+
+    <PreferenceScreen
+        android:icon="@drawable/daxgirl"
+        android:title="daxgirl"
+        android:summary="ROM Control Developer" >
+        <intent
+            android:icon="@drawable/daxgirl"
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/member.php?u=4714483" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/rompnit"
+        android:title="rompnit"
+        android:summary="MOAR ROM Developer" >
+        <intent
+            android:icon="@drawable/rompnit"
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/member.php?u=1167171" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/tdunham"
+        android:title="tdunham"
+        android:summary="The Mod Master" >
+        <intent
+            android:icon="@drawable/tdunham"
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/member.php?u=1042140" />
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="Support" />
+    <PreferenceScreen
+        android:icon="@drawable/paypal"
+        android:title="PayPal Me"
+        android:summary="Keep the Project Alive">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://tinyurl.com/heeom9y" />
+    </PreferenceScreen>
+</PreferenceScreen>
